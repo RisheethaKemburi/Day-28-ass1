@@ -1,0 +1,14 @@
+#include<stdio.h>
+double cube(double n);
+int main(){
+	int n;
+	double c;
+	scanf("%d",&n);
+	c=cube(n);
+	printf("cube of %d is %.2f",n,c);
+	return 0;
+}
+double cube(double n)
+{
+	return (n*n*n);
+}
